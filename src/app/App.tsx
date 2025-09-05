@@ -99,7 +99,7 @@ export default function AppClient() {
                   Tailored for Owow Talents
                 </span>
               ) : (
-i                <span className="inline-flex items-center gap-2 bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-sm">
+                <span className="inline-flex items-center gap-2 bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-sm">
                   AI Recruiting Demo
                 </span>
               )}
