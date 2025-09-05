@@ -99,7 +99,7 @@ export default function AppClient() {
                   Tailored for Owow Talents
                 </span>
               ) : (
-                <span className="inline-flex items-center gap-2 bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-sm">
+i                <span className="inline-flex items-center gap-2 bg-slate-100 text-slate-800 px-3 py-1 rounded-full text-sm">
                   AI Recruiting Demo
                 </span>
               )}
@@ -121,7 +121,7 @@ export default function AppClient() {
           </div>
 
           <div className="rounded-2xl bg-slate-50 p-6 shadow-sm">
-            <div className="font-medium">"We’re building an AI powered tech platform to Recruit, Hire and Manage talents anywhere on earth."</div>
+            <div className="font-medium">"We are building an AI powered tech platform to Recruit, Hire and Manage talents anywhere on earth."</div>
             <div className="text-sm text-slate-600 mt-2">From sourcing to global payroll — I’ll help you ship it.</div>
             <div className="grid grid-cols-2 gap-3 mt-4 text-sm">
               <div className="p-3 bg-white rounded">+60% faster shortlist</div>
