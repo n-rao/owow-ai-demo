@@ -39,7 +39,7 @@ export default function AppClient() {
 
   // Tiny on-page AI chat history
   const [history, setHistory] = useState<Message[]>([
-    { role: "ai", text: "Hey! I’m your on-page AI. Ask me how I’ll help Owow Talents hire faster." },
+    { role: "ai", text: "Hey! I am your on-page AI. Ask me how I will help Owow Talents hire faster." },
   ]);
   const [msg, setMsg] = useState<string>("");
 
@@ -52,7 +52,7 @@ export default function AppClient() {
     const body = encodeURIComponent(
       `Hi Owow Talents,\n\nI saw your company and would like to schedule an interview about building your AI recruiting platform.\n\n— Nammy`
     );
-    return `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+    return `mailto:nraoml77@gmail.com?subject=${subject}&body=${body}`;
   }, []);
 
   function sendMessage() {
@@ -122,7 +122,7 @@ export default function AppClient() {
 
           <div className="rounded-2xl bg-slate-50 p-6 shadow-sm">
             <div className="font-medium">"We are building an AI powered tech platform to Recruit, Hire and Manage talents anywhere on earth."</div>
-            <div className="text-sm text-slate-600 mt-2">From sourcing to global payroll — I’ll help you ship it.</div>
+            <div className="text-sm text-slate-600 mt-2">From sourcing to global payroll — I will help you ship it.</div>
             <div className="grid grid-cols-2 gap-3 mt-4 text-sm">
               <div className="p-3 bg-white rounded">+60% faster shortlist</div>
               <div className="p-3 bg-white rounded">↓ time-to-hire</div>
