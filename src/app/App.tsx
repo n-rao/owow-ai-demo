@@ -20,7 +20,7 @@ const cannedReplies = [
   },
   {
     q: /contact|interview|schedule|calendar/i,
-    a: "Click 'Schedule Interview' to email me (or replace mailto in the code with your calendly).",
+    a: "Click 'Schedule Interview'",
   },
 ];
 
